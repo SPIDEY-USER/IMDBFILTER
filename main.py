@@ -19,11 +19,11 @@ async def start_message(bot, message):
           InlineKeyboardButton ("🌹BOT OWNER🌹", url="t.me/TEAM_NARUTO_GRUOP"),
           InlineKeyboardButton ("🌹BOT DEV🌹", url="t.me/PR0FESS0R_99"),
           ],[
-          InlineKeyboardButton ("🌹BOT EDITING", url="t.me/TEAM_NARUTO_GRUOP"),
-          InlineKeyboardButton ("🌹REPO MAKE PART 1", url="https://youtu.be/Af055Eozk9s"),
+          InlineKeyboardButton ("🌹BOT EDITING🌹", url="t.me/TEAM_NARUTO_GRUOP"),
+          InlineKeyboardButton ("🌹REPO MAKE PART 1🌹", url="https://youtu.be/Af055Eozk9s"),
           ],[
-          InlineKeyboardButton ("🌹SOURCE CODE", url="https://github.com/SPIDEY-USER/IMDBFILTER"),
-          Inlinekeyboardbutton ("🌹MOVIE BOT", url="t.me/ROCKYBHAI_FILTERBOT")
+          InlineKeyboardButton ("🌹SOURCE CODE🌹", url="https://github.com/SPIDEY-USER/IMDBFILTER"),
+          Inlinekeyboardbutton ("🌹BOT ADMIN🌹", url="t.me/TEAM_NARUTO_GRUOP")
           ]]
           )
        )
