@@ -1,4 +1,5 @@
 from pyrogram import Client, filters
+from pyrogram.types import Message
 
 Naruto=Client(
     "Imdb Bot",
@@ -11,13 +12,8 @@ async def start_message(bot, message):
     await message.reply_text("Hey Bro Eth Give Way Gruop Anu ketto😅")
 
 @Naruto.on_message(filters.command("help"))
-async def start_message(bot, message):
+async def help(bot: Naruto, message: Message):
     await message.reply_text("ദെയിവമേ എന്ന മാത്രം രക്ഷികനെ😅")
-
-
-@Naruto.on_message(filters.command("about"))
-async def start_message(bot, message):
-    await message.reply_text("എന്താ Repository link നോക്കി വന്നതാണോ മോൻ😅")
 
 
 Naruto.run()
