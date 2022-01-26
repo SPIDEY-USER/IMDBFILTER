@@ -11,12 +11,12 @@ Naruto=Client(
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
    await message.reply_text(
-       text="Enter Your Text Here",
+       text="JOIN",
        reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton("IMDB", url="t.me/midnightmoviesofficial"
-           ]]
-           )
+          InlineKeyboardButton ("JOIN GRUOP", url="t.me/nanmapookal")
+          ]]
+          )
        )
-
+   
 
 Naruto.run()
