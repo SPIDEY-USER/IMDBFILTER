@@ -13,7 +13,7 @@ async def start_message(bot, message):
    await message.reply_text(
        text="Enter Your Text Here",
        reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton("🌹IMDB🌹", url="t.me/midnightmoviesofficial"
+           InlineKeyboardButton("IMDB", url="t.me/midnightmoviesofficial"
            ]]
            )
        )
