@@ -21,8 +21,8 @@ async def start_message(bot, message):
           ],[
           InlineKeyboardButton ("🌹BOT EDITING🌹", url="t.me/TEAM_NARUTO_GRUOP"),
           InlineKeyboardButton ("🌹REPO MAKE PART 1🌹", url="https://youtu.be/Af055Eozk9s"),
+          ],[
           InlineKeyboardButton ("🌹SOURCE CODE🌹", url="https://github.com/SPIDEY-USER/IMDBFILTER"),
-          Inlinekeyboardbutton ("🌹ADD ME TO A CHAT GRUOP🌹", url="https://t.me/PushpaAdvAutoFilterV2Bot?startgroup=true"),
           ]]
           )
        )
