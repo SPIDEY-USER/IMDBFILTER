@@ -10,6 +10,12 @@ Naruto=Client(
 async def start_message(bot, message):
     await message.reply_text("Hey Bro Eth Give Way Gruop Anu ketto😅")
 
+@Naruto.on_message(filters.command("help"))
+async def start_message(bot, message):
+    await message.reply_text("ദെയിവമേ എന്ന മാത്രം രക്ഷികനെ😅")
+
+
+
 
 
 Naruto.run()
