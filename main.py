@@ -17,7 +17,10 @@ async def start_message(bot, message):
           InlineKeyboardButton ("🌹JOIN CHANNEL🌹", url="t.me/FILE_ADD_CHANNEL"),
           ],[
           InlineKeyboardButton ("🌹BOT OWNER🌹", url="t.me/TEAM_NARUTO_GRUOP"),
-          InlineKeyboardButton ("🌹BOT DEV🌹", url="t.me/PR0FESS0R_99")
+          InlineKeyboardButton ("🌹BOT DEV🌹", url="t.me/PR0FESS0R_99"),
+          ],[
+          InlineKeyboardButton ("🌹BOT EDITING", url="t.me/TEAM_NARUTO_GRUOP"),
+          InlineKeyboardButton ("🌹REPO MAKE PART 1", url="https://youtu.be/Af055Eozk9s")
           ]]
           )
        )
