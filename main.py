@@ -14,7 +14,8 @@ async def start_message(bot, message):
        text="**ഈ ചാനലിലും ഗ്രുഒപ്പിലും നിങ്ങൾ ഇല്ല ഇത്രെയും വേഗം ജോയിൻ ആവേണ്ടതാണ്🔥🔥**",
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton ("🌹JOIN GRUOP🌹", url="t.me/midnightmoviesofficial"),
-          InlineKeyboardButton ("🌹JOIN CHANNEL🌹", url="t.me/FILE_ADD_CHANNEL")
+          InlineKeyboardButton ("🌹JOIN CHANNEL🌹", url="t.me/FILE_ADD_CHANNEL"),
+          InlineKeyboardButton ("🌹BOT OWNER🌹", url=t.me/TEAM_NARUTO_GRUOP")
           ]]
           )
        )
