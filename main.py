@@ -15,7 +15,9 @@ async def start_message(bot, message):
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton ("🌹JOIN GRUOP🌹", url="t.me/midnightmoviesofficial"),
           InlineKeyboardButton ("🌹JOIN CHANNEL🌹", url="t.me/FILE_ADD_CHANNEL"),
-          InlineKeyboardButton ("🌹BOT OWNER🌹", url="t.me/TEAM_NARUTO_GRUOP")
+          ],[
+          InlineKeyboardButton ("🌹BOT OWNER🌹", url="t.me/TEAM_NARUTO_GRUOP"),
+          InlineKeyboardButton ("🌹BOT DEV🌹", url="t.me/PR0FESS0R_99")
           ]]
           )
        )
