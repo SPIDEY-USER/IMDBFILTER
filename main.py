@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from pyrogram.types import Message
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Naruto=Client(
     "Imdb Bot",
@@ -10,11 +10,13 @@ Naruto=Client(
 
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
-    await message.reply_text("Hey Bro Eth Give Way Gruop Anu ketto😅")
-
-@Naruto.on_message(filters.command("help"))
-async def help(bot: Naruto, message: Message):
-    await message.reply_text("ദെയിവമേ എന്ന മാത്രം രക്ഷികനെ😅")
+   await message.reply_text(
+       text="Enter Your Text Here",
+       reply_markup=InlineKeyboardMarkup( [[
+           InlineKeyboardButton("🌹IMDB🌹", url="t.me/midnightmoviesofficial"
+           ]]
+           )
+       )
 
 
 Naruto.run()
