@@ -15,7 +15,9 @@ async def start_message(bot, message):
     await message.reply_text("ദെയിവമേ എന്ന മാത്രം രക്ഷികനെ😅")
 
 
-
+@Naruto.on_message(filters.command("about"))
+async def start_message(bot, message):
+    await message.reply_text("എന്താ Repository link നോക്കി വന്നതാണോ മോൻ😅")
 
 
 Naruto.run()
