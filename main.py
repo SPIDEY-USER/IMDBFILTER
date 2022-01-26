@@ -11,9 +11,9 @@ Naruto=Client(
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
    await message.reply_text(
-       text="JOIN",
+       text="ഈ ഗ്രുഒപ്പിൽ നിങ്ങൾ ഇല്ല അത്കണ്ട് എത്രെo വേഗം ജോയിൻ ആവു",
        reply_markup=InlineKeyboardMarkup( [[
-          InlineKeyboardButton ("JOIN GRUOP", url="t.me/nanmapookal")
+          InlineKeyboardButton ("🌹JOIN GRUOP🌹", url="t.me/midnightmoviesofficial")
           ]]
           )
        )
