@@ -23,7 +23,6 @@ async def start_message(bot, message):
           InlineKeyboardButton ("🌹REPO MAKE PART 1🌹", url="https://youtu.be/Af055Eozk9s"),
           ],[
           InlineKeyboardButton ("🌹SOURCE CODE🌹", url="https://github.com/SPIDEY-USER/IMDBFILTER"),
-          ],[
           Inlinekeyboardbutton ("🌹ADD ME TO A CHAT GRUOP🌹", url="http://t.me/{temp.U_NAME}?startgroup=true"),
           ]]
           )
